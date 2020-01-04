@@ -1,0 +1,14 @@
+http://prolog.univie.ac.at/research/STRSP/
+
+STRSP instances
+
+The instances are based on those of Solomon for the VRPTW 
+http://w.cba.neu.edu/~msolomon/problems.htm 
+and those of the ROADF challenge 2007 http://www.g-scop.inpg.fr/ChallengeROADEF2007/. 
+In addition to time windows and service times, 
+for each task (or customer) a cost term and a skill-level requirement matrix has been generated. 
+The entry d12 refers to skill 1 and level 2. In the results that will be made available soon, 
+capacity and demand are not used and instead of the cost terms given in the instance files, 
+for each task outsourcing costs are calculatd as follows:
+200 + (d11 + d12 + ... + dnm)^1.5
+where n gives the total number of skills and m the total number of levels. 

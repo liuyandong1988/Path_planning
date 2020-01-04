@@ -1,0 +1,17 @@
+Description for Files of Taillard's Benchmark
+
+The format of data and solution files in all directories is as follows:
+
+The file structure begins with a line containing i B, where
+
+i	=	customer number
+B 	=	best known solution
+The next line contains C, meaning the capacity of vehicles. After that, the depot coordinates (x,y) are shown. Finally, the customers are specified in the following manner::
+
+x y q
+
+where
+
+x	=	x coordinate
+y	=	y coordinate
+q	=	demand

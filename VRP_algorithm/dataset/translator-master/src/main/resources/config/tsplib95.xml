@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<configuration>
+	<preprocess source="data/original_instance" target="data/tsplib95/instance">
+		<class name="org.vrprep.translator.impl.tsplib95.CleanFiles" />
+		<selections>
+			<selection pattern="^.*/TRANSLATED/.*\\.vrp$" />
+		</selections>
+	</preprocess>
+	<translate source="data/tsplib95/instance" target="data/tsplib95/output">
+		<class name="org.vrprep.translator.impl.tsplib95.TSPLIB95InstanceTranslator" />
+		<selections>
+			<selection pattern="^.*\\.vrp$" />
+		</selections>
+		<replacements>
+			<replacement source=".vrp" target=".xml" />
+		</replacements>
+	</translate>
+</configuration>

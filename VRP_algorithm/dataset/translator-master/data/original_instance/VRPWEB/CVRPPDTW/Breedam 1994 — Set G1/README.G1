@@ -1,0 +1,28 @@
+SET G1 
+
+60 VRP instances
+Nr. of Depots: 1 
+Nr. of Stops: 100
+Demand of stop: q=10
+
+Nr. of Vehicles: unlimited
+Capacity of Vehicles: Q=100
+
+File structure
+
+    0   50   50    0 9999 9999 9999    0    0   0  (depot)
+    1    5    5    0 9999 9999 9999   10    0   0  (stop 1)
+	....                                     ...
+  100   95   95    0 9999 9999 9999   10    0   0  (stop 100)
+    |    |    |    |   |    |    |     |    |   |
+    |    |    |    |   |    |    |     |    |   delivery=0 / pickup=1
+    |    |    |    |   |    |    |     |    service time
+    |    |    |    |   |    |    |     demand
+    |    |    |    |   |    |    closing time TW2
+    |    |    |    |   |    opening time TW2
+    |    |    |    |   closing time TW1
+    |    |    |    opening time TW1
+    |    |    Y coordinate
+    |    X coordinate
+    stop nr.
+

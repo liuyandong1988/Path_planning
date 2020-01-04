@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<configuration>
+	<preprocess source="data/original_instance" target="data/solomon/instance">
+		<class name="org.vrprep.translator.util.file.CopyFiles" />
+		<selections>
+			<selection pattern="^.*/TRANSLATED/.*/Solomon 1987.*/.*\\.txt$" />
+			<selection pattern="^.*/TRANSLATED/.*/Gehring and Homberger 1999.*/.*\\.TXT$" />
+		</selections>
+		<replacements>
+			<replacement source=".TXT" target=".txt" />
+		</replacements>
+	</preprocess>
+	<translate source="data/solomon/instance" target="data/solomon/output">
+		<class name="org.vrprep.translator.impl.solomon.SolomonInstanceTranslator" />
+		<selections>
+			<selection pattern="^.*\\.txt$" />
+		</selections>
+		<replacements>
+			<replacement source=".txt" target=".xml" />
+		</replacements>
+	</translate>
+</configuration>

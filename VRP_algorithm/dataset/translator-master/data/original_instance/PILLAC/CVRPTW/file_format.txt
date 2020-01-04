@@ -1,0 +1,7 @@
+I generated six sets of problems.  Their design highlights several factors that  affect the behavior of routing and scheduling algorithms.  They are: geographical data; the number of customers serviced by a vehicle; percent of time-constrained customers; and tightness and positioning of the time windows.
+
+The geographical data are randomly generated  in problem sets R1 and R2, clustered in problem sets C1 and C2, and a mix of random and clustered structures in problem sets by RC1 and RC2. Problem sets R1, C1 and RC1 have a short scheduling horizon  and allow only a few customers  per route (approximately 5 to 10). In contrast, the sets R2, C2 and RC2 have a long scheduling horizon permitting many customers (more than 30)  to be serviced by the same vehicle.
+
+The customer coordinates are identical for all problems within one type (i.e., R,  C and RC).  The problems differ with respect to the width of the time windows.  Some have very tight time windows, while others have time windows which are hardly constraining.  In terms of time window density, that is, the percentage of customers with time windows, I created problems with 25, 50, 75 and 100 % time windows.
+
+The larger problems are 100 customer euclidean problems where travel times equal the corresponding distances.  For each such problem, smaller problems have been created by considering only the first 25 or 50 customers. 

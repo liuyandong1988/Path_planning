@@ -1,0 +1,12 @@
+.DS_Store
+.classpath
+.project
+
+/.settings/
+/bin/
+/target/
+
+/data/tsplib95/
+/data/solomon/
+/data/schema/
+/data/output/

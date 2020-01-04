@@ -1,0 +1,37 @@
+# Type of the Christofides VRP instances
+# C: Capacity constrained
+# D: Distance constrained
+vrpnc1Type = C
+vrpnc2Type = C
+vrpnc3Type = C
+vrpnc4Type = C
+vrpnc5Type = C
+vrpnc6Type = CD
+vrpnc7Type = CD
+vrpnc8Type = CD
+vrpnc9Type = CD
+vrpnc10Type = CD
+vrpnc11Type = C
+vrpnc12Type = C
+vrpnc13Type = CD
+vrpnc14Type = CD
+
+
+#Toth and Vigo notation
+vrpnc1Toth = E051-05e
+vrpnc2Toth = E076-10e
+vrpnc3Toth = E101-08e
+vrpnc4Toth = E151-12c
+vrpnc5Toth = E200-17c
+vrpnc6Toth = D051-06c
+vrpnc7Toth = D076-11c
+vrpnc8Toth = D101-09c
+vrpnc9Toth = D151-14c
+vrpnc10Toth = D200-18c
+vrpnc11Toth = E121-07c
+vrpnc12Toth = E101-10c
+vrpnc13Toth = D121-11c
+vrpnc14Toth = D101-11c
+
+
+

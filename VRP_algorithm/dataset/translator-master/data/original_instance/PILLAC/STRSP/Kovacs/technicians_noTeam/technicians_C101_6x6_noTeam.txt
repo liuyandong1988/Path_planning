@@ -1,0 +1,24 @@
+Technicians
+Number of Technicians: 16
+domains: 6
+proficiency level: 6
+
+
+ID	domain1	domain2	domain3	domain4	domain5 domain6
+1	6	3	4	6	6	5
+2	2	0	0	0	0	1
+3	4	2	5	3	6	4
+4	2	6	5	2	3	6
+5	3	2	6	3	6	4
+6	5	5	4	3	5	3
+7	0	2	2	0	0	0
+8	4	1	3	4	6	6
+9	3	3	1	5	4	4
+10	3	4	3	6	6	4
+11	4	3	3	4	6	5
+12	3	1	4	5	4	3
+13	6	3	3	1	6	5
+14	6	5	4	4	3	5
+15	6	4	2	5	5	5
+16	4	4	6	6	5	5
+

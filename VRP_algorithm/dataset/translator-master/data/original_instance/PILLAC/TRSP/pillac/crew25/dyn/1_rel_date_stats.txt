@@ -1,0 +1,15 @@
+Average latest release dates:
+  C1 :   760.0 
+  C2 :  2387.0 
+  R1 :    72.0 
+  R2 :   421.0 
+ RC1 :    93.0 
+ RC2 :   425.0 
+
+Time Horizon length
+  C1 :  1236.0 
+  C2 :  3390.0 
+  R1 :   230.0 
+  R2 :  1000.0 
+ RC1 :   240.0 
+ RC2 :   960.0 
