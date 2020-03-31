@@ -5,7 +5,7 @@ asn1crypto==0.24.0
 astroid==1.6.0
 Babel==2.4.0
 beautifulsoup4==4.6.0
-bleach==2.1.2
+bleach==3.1.4
 blinker==1.4
 Brlapi==0.6.6
 cached-property==1.5.1
