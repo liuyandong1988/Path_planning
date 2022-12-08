@@ -9,7 +9,7 @@ bleach==2.1.2
 blinker==1.4
 Brlapi==0.6.6
 cached-property==1.5.1
-certifi==2018.1.18
+certifi==2022.12.7
 chardet==3.0.4
 checkbox-support==0.22
 chrome-gnome-shell==0.0.0
